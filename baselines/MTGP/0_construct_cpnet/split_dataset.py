@@ -17,8 +17,13 @@ def split(all_data_path, train_path, dev_path, test_path, ratio=[0.9, 0.05, 0.05
     print("train: {}, dev: {}, test: {}".format(len(train_data), len(dev_data), len(test_data)))
 
 if __name__ == "__main__":
-    all_data_path = "../0_construct_cpnet/local_paths/sample_paths.txt"
-    train_path = "../0_construct_cpnet/local_paths/train.txt"
-    dev_path = "../0_construct_cpnet/local_paths/dev.txt"
-    test_path = "../0_construct_cpnet/local_paths/test.txt"
+    # all_data_path = "../0_construct_cpnet/local_paths/sample_paths.txt"
+    # train_path = "../0_construct_cpnet/local_paths/train.txt"
+    # dev_path = "../0_construct_cpnet/local_paths/dev.txt"
+    # test_path = "../0_construct_cpnet/local_paths/test.txt"
+    
+    all_data_path = "/kaggle/working/TG_AUG/baselines/MTGP/0_construct_cpnet/conceptnet/sample_path/laq/sample_paths.txt"
+    train_path = "/kaggle/working/TG_AUG/baselines/MTGP/0_construct_cpnet/conceptnet/sample_path/laq/train.txt"
+    dev_path = "/kaggle/working/TG_AUG/baselines/MTGP/0_construct_cpnet/conceptnet/sample_path/laq/dev.txt"
+    test_path = "/kaggle/working/TG_AUG/baselines/MTGP/0_construct_cpnet/conceptnet/sample_path/laq/test.txt"
     split(all_data_path, train_path, dev_path, test_path)

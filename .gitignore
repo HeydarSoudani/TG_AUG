@@ -117,6 +117,8 @@ venv.bak/
 datasets
 baselines/TopKG/data
 baselines/TopKG/logs*
+baselines/MTGP/0_construct_cpnet/global_paths
 baselines/MTGP/1_path_generation/results
 baselines/MTGP/2_dialog_generation/results
 baselines/MTGP/2_dialog_generation/dialog_gen_data
+baselines/MTGP/data
