@@ -104,7 +104,8 @@ def path2str(path, i2r, i2e, r2i):
     return str2w
 
 if __name__ == '__main__':
-    data_dir = './conceptnet/laq/'
+    # data_dir = './conceptnet/laq/'
+    data_dir = "../data/my_conceptnet"
     output_dir = './conceptnet/sample_path/laq/'
     num_paths = [10, 8, 6, 4, 2]
     path_lens = [2, 3, 4, 5, 6] # 1,2,3 hop
