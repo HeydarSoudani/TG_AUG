@@ -141,9 +141,9 @@ def extract_english_and_save(r_raw_concept_path, w_all_triples_path, w_entity_vo
     print(len(graph.nodes), len(graph.edges))
 
 if __name__ == "__main__":
-    r_raw_concept_path = "../raw_files/conceptnet-assertions-5.7.0.csv"
-    w_all_triples_path = "../data/my_conceptnet/conceptnet_en.txt"
-    w_entity_vocab_path = "../data/my_conceptnet/entity_vocab.pkl"
-    w_rel_vocab_path = "../data/my_conceptnet/rel_vocab.pkl"
-    w_cpnet_graph_path = "../data/my_conceptnet/cpnet_laq.graph"
+    r_raw_concept_path = "raw_files/conceptnet-assertions-5.7.0.csv"
+    w_all_triples_path = "data/my_conceptnet/conceptnet_en.txt"
+    w_entity_vocab_path = "data/my_conceptnet/entity_vocab.pkl"
+    w_rel_vocab_path = "data/my_conceptnet/rel_vocab.pkl"
+    w_cpnet_graph_path = "data/my_conceptnet/cpnet_laq.graph"
     extract_english_and_save(r_raw_concept_path, w_all_triples_path, w_entity_vocab_path, w_rel_vocab_path)

@@ -119,3 +119,4 @@ baselines/TopKG/data
 baselines/TopKG/logs*
 baselines/MTGP/1_path_generation/results
 baselines/MTGP/2_dialog_generation/results
+baselines/MTGP/2_dialog_generation/dialog_gen_data
